@@ -76,10 +76,7 @@ ${photo}
     ${result.Contributing}
 
     ## Tests
-    ${result.Tests}
-
-    ## Contact
-    ${email}`;
+    ${result.Tests}`;
 
       fs.writeFile("README.md", md, function(err) {
         if (err) throw err;
