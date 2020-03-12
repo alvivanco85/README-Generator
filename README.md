@@ -1,21 +1,22 @@
 # alvivanco85
 
-https://avatars3.githubusercontent.com/u/54383295?v=4
+https://avatars3.githubusercontent.com/u/54383295?v=4;
+null;
 
-    ## README-Generator
+    ## README.md Generator
     Easy to use README.md file generator.
 
     ## Installation
-    Run init and intall dependencies.
+    Run an npm install, and install depencies(inquirer, axios, fs).
 
     ## Usage
-    Open the index.js in terminal, run node index.js and then answer the prompts and you are good to go. 
+    Open the index.js file in the terminal and run it with node index.js, follow the prompts and you are good to go.\
 
     ## Liscence
     None
 
     ## Contributing
-    Please send any questions suggestions.
+    Message me any questions, comments or suggestions. 
 
     ## Tests
     No tests at this time.

@@ -54,11 +54,12 @@ inquirer
     const queryUrl = `https://api.github.com/users/${result.username}`;
 
     axios.get(queryUrl).then(function(res) {
-      const photo = res.data.avatar_url;
+      const pic = res.data.avatar_url;
       const email = res.data.email;
       const md = `# ${result.username}
 
-${photo}
+${pic};
+${email};
 
     ## ${result.Title}
     ${result.Description}
@@ -80,7 +81,7 @@ ${photo}
 
       fs.writeFile("README.md", md, function(err) {
         if (err) throw err;
-        console.log("It Worked");
+        console.log("You are good to go!");
       });
     });
   });
